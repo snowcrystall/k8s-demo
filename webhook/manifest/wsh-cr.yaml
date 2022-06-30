@@ -1,0 +1,8 @@
+apiVersion: stable.example.com/v1
+kind: WebServiceHello
+metadata:
+  name: wsh-rc
+  namespace: default
+spec:
+  deployment: hello-dp.yaml
+  replicas: 2
